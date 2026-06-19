@@ -1,0 +1,62 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.4.2
+python-dotenv==1.0.0
+
+# Data & Time-Series
+pandas==2.1.2
+numpy==1.26.2
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+pg8000==1.30.2
+
+# Technical Analysis
+ta-lib==0.4.28
+pandas-ta==0.3.14b0
+
+# ML & Backtesting
+tensorflow==2.14.0
+scikit-learn==1.3.2
+keras==2.14.0
+
+# Data Sources & APIs
+alphavantagepy==3.0.0
+requests==2.31.0
+aiohttp==3.9.1
+
+# Payment Integration (M-Pesa/Daraja)
+python-mpesa==1.0.0
+
+# Authentication & Security
+pyjwt==2.8.1
+python-jose==3.3.0
+bcrypt==4.1.0
+cryptography==41.0.7
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# Caching
+redis==5.0.1
+
+# Logging & Monitoring
+loguru==0.7.2
+prometheus-client==0.19.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Code Quality
+black==23.12.0
+flake8==6.1.0
+isort==5.13.2
+mypy==1.7.1
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
